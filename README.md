@@ -9,13 +9,13 @@ This MATLAB application allows users to visualize the behavior of a standard sec
 - Bode plot
 - Display of the transfer function
 
-Users can interactively adjust the damping ratio (δ), natural frequency of oscillation (ω_n), and gain (K) using sliders, allowing for a dynamic exploration of the system's response.
+Users can interactively adjust the damping ratio (δ), natural frequency of oscillation ($$ω_n$$), and gain (K) using sliders, allowing for a dynamic exploration of the system's response.
 
 ## Transfer Function
 
 The application utilizes the following standard second-order transfer function:
 
-\[ G(s) = \frac{K \cdot \omega_n^2}{s^2 + 2 \cdot \delta \cdot \omega_n \cdot s + \omega_n^2} \]
+$$ G(s) = \frac{K \cdot \omega_n^2}{s^2 + 2 \cdot \delta \cdot \omega_n \cdot s + \omega_n^2} $$
 
 ## Features
 
